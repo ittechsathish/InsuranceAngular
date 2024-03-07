@@ -17,6 +17,7 @@
           />
 
           <label
+            id="nameError"
             *ngIf="nameError"
             class="ui pointing red basic label error-label"
           >
@@ -49,6 +50,7 @@
             type="number"
             formControlName="sumInsured"
             placeholder="Sum Insured"
+            id="sumInsuredInput"
           />
           <label
             *ngIf="sumInsuredError"
